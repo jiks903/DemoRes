@@ -1,0 +1,597 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "The Burger Shack",
+      "location": "New York, USA",
+      "lat": 40.712776,
+      "long": -74.005974,
+      "menus": [
+        {
+          "id": 101,
+          "menuName": "Classic Menu",
+          "menuStatus": true,
+          "menuItems": [
+            {
+              "id": 1001,
+              "mainItemName": "Cheeseburger",
+              "childItems": [
+                {
+                  "id": 2001,
+                  "name": "Bacon",
+                  "extraIngredients": [],
+                  "selectionType": "single",
+                  "defaultSelection": false
+                },
+                {
+                  "id": 2002,
+                  "name": "Pickles",
+                  "extraIngredients": [
+                    "Jalapenos"
+                  ],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2003,
+                  "name": "Cheese Type",
+                  "extraIngredients": [
+                    "Cheddar",
+                    "Swiss",
+                    "American"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2004,
+                  "name": "Size",
+                  "extraIngredients": [
+                    "Regular",
+                    "Large"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": true
+                }
+              ]
+            },
+            {
+              "id": 1002,
+              "mainItemName": "Veggie Burger",
+              "childItems": [
+                {
+                  "id": 2005,
+                  "name": "Lettuce",
+                  "extraIngredients": [],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2006,
+                  "name": "Tomato",
+                  "extraIngredients": [],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2007,
+                  "name": "Cheese",
+                  "extraIngredients": [
+                    "Vegan Cheese",
+                    "Mozzarella"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": false
+                }
+              ]
+            },
+            {
+              "id": 1003,
+              "mainItemName": "BBQ Cheeseburger",
+              "childItems": [
+                {
+                  "id": 2008,
+                  "name": "BBQ Sauce",
+                  "extraIngredients": [
+                    "Onions"
+                  ],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2009,
+                  "name": "Cheese Type",
+                  "extraIngredients": [
+                    "Cheddar",
+                    "American"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": true
+                }
+              ]
+            },
+            {
+              "id": 1004,
+              "mainItemName": "Spicy Chicken Sandwich",
+              "childItems": [
+                {
+                  "id": 2010,
+                  "name": "Spicy Sauce",
+                  "extraIngredients": [
+                    "Pickles"
+                  ],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2011,
+                  "name": "Lettuce",
+                  "extraIngredients": [],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                }
+              ]
+            },
+            {
+              "id": 1005,
+              "mainItemName": "Fish and Chips",
+              "childItems": [
+                {
+                  "id": 2012,
+                  "name": "Sauce",
+                  "extraIngredients": [
+                    "Tartar",
+                    "Ketchup"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": false
+                },
+                {
+                  "id": 2013,
+                  "name": "Portion Size",
+                  "extraIngredients": [
+                    "Small",
+                    "Regular",
+                    "Large"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": true
+                }
+              ]
+            },
+            {
+              "id": 1006,
+              "mainItemName": "Chicken Tenders",
+              "childItems": [
+                {
+                  "id": 2014,
+                  "name": "Sauce",
+                  "extraIngredients": [
+                    "Barbecue",
+                    "Ranch",
+                    "Honey Mustard"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": false
+                },
+                {
+                  "id": 2015,
+                  "name": "Side",
+                  "extraIngredients": [
+                    "Fries",
+                    "Onion Rings",
+                    "Coleslaw"
+                  ],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                }
+              ]
+            },
+            {
+              "id": 1007,
+              "mainItemName": "Grilled Chicken Sandwich",
+              "childItems": [
+                {
+                  "id": 2016,
+                  "name": "Sauce",
+                  "extraIngredients": [
+                    "Mayo",
+                    "Mustard",
+                    "Ranch"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2017,
+                  "name": "Topping",
+                  "extraIngredients": [
+                    "Lettuce",
+                    "Tomato",
+                    "Pickles"
+                  ],
+                  "selectionType": "multi",
+                  "defaultSelection": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "menuName": "Specials",
+          "menuStatus": false,
+          "menuItems": [
+            {
+              "id": 1008,
+              "mainItemName": "Vegan Burger",
+              "childItems": [
+                {
+                  "id": 2018,
+                  "name": "Lettuce",
+                  "extraIngredients": [],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2019,
+                  "name": "Tomato",
+                  "extraIngredients": [],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                }
+              ]
+            },
+            {
+              "id": 1009,
+              "mainItemName": "BBQ Pulled Pork Sandwich",
+              "childItems": [
+                {
+                  "id": 2020,
+                  "name": "BBQ Sauce",
+                  "extraIngredients": [],
+                  "selectionType": "single",
+                  "defaultSelection": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Pasta Paradise",
+      "location": "Los Angeles, USA",
+      "lat": 34.052235,
+      "long": -118.243683,
+      "menus": [
+        {
+          "id": 103,
+          "menuName": "Traditional Pasta Menu",
+          "menuStatus": true,
+          "menuItems": [
+            {
+              "id": 1010,
+              "mainItemName": "Spaghetti Carbonara",
+              "childItems": [
+                {
+                  "id": 2021,
+                  "name": "Parmesan Cheese",
+                  "extraIngredients": [
+                    "Bacon Bits"
+                  ],
+                  "selectionType": "multi",
+                  "defaultSelection": false
+                },
+                {
+                  "id": 2022,
+                  "name": "Mushrooms",
+                  "extraIngredients": [],
+                  "selectionType": "single",
+                  "defaultSelection": false
+                },
+                {
+                  "id": 2023,
+                  "name": "Portion Size",
+                  "extraIngredients": [
+                    "Small",
+                    "Regular",
+                    "Large"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": true
+                }
+              ]
+            },
+            {
+              "id": 1011,
+              "mainItemName": "Penne Arrabbiata",
+              "childItems": [
+                {
+                  "id": 2024,
+                  "name": "Chili Flakes",
+                  "extraIngredients": [],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2025,
+                  "name": "Parmesan Cheese",
+                  "extraIngredients": [
+                    "Basil"
+                  ],
+                  "selectionType": "multi",
+                  "defaultSelection": false
+                },
+                {
+                  "id": 2026,
+                  "name": "Dietary Options",
+                  "extraIngredients": [
+                    "Gluten-Free Pasta",
+                    "Vegan"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": false
+                }
+              ]
+            },
+            {
+              "id": 1012,
+              "mainItemName": "Fettuccine Alfredo",
+              "childItems": [
+                {
+                  "id": 2027,
+                  "name": "Parmesan Cheese",
+                  "extraIngredients": [
+                    "Mushrooms",
+                    "Garlic"
+                  ],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2028,
+                  "name": "Chicken",
+                  "extraIngredients": [
+                    "Grilled",
+                    "Fried"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 104,
+          "menuName": "Vegan Pasta Menu",
+          "menuStatus": true,
+          "menuItems": [
+            {
+              "id": 1013,
+              "mainItemName": "Vegan Penne Arrabbiata",
+              "childItems": [
+                {
+                  "id": 2029,
+                  "name": "Chili Flakes",
+                  "extraIngredients": [],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2030,
+                  "name": "Vegan Parmesan",
+                  "extraIngredients": [
+                    "Basil"
+                  ],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                }
+              ]
+            },
+            {
+              "id": 1014,
+              "mainItemName": "Vegan Mushroom Risotto",
+              "childItems": [
+                {
+                  "id": 2031,
+                  "name": "Mushrooms",
+                  "extraIngredients": [
+                    "Spinach",
+                    "Garlic"
+                  ],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2032,
+                  "name": "Rice Type",
+                  "extraIngredients": [
+                    "Brown",
+                    "White"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Taco Fiesta",
+      "location": "San Francisco, USA",
+      "lat": 37.774929,
+      "long": -122.419418,
+      "menus": [
+        {
+          "id": 105,
+          "menuName": "Taco Specials",
+          "menuStatus": true,
+          "menuItems": [
+            {
+              "id": 1030,
+              "mainItemName": "Beef Taco",
+              "childItems": [
+                {
+                  "id": 2041,
+                  "name": "Cheese",
+                  "extraIngredients": [
+                    "Cheddar",
+                    "Mexican Blend"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2042,
+                  "name": "Toppings",
+                  "extraIngredients": [
+                    "Lettuce",
+                    "Tomato",
+                    "Onions",
+                    "Cilantro"
+                  ],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Sushi Haven",
+      "location": "Chicago, USA",
+      "lat": 41.878113,
+      "long": -87.629799,
+      "menus": [
+        {
+          "id": 106,
+          "menuName": "Sushi Rolls",
+          "menuStatus": true,
+          "menuItems": [
+            {
+              "id": 1040,
+              "mainItemName": "California Roll",
+              "childItems": [
+                {
+                  "id": 2047,
+                  "name": "Avocado",
+                  "extraIngredients": [],
+                  "selectionType": "single",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2048,
+                  "name": "Crab Meat",
+                  "extraIngredients": [
+                    "Imitation Crab"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": true
+                }
+              ]
+            },
+            {
+              "id": 1041,
+              "mainItemName": "Spicy Tuna Roll",
+              "childItems": [
+                {
+                  "id": 2049,
+                  "name": "Tuna",
+                  "extraIngredients": [
+                    "Spicy Mayo"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2050,
+                  "name": "Cucumber",
+                  "extraIngredients": [],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Pizza Palace",
+      "location": "Miami, USA",
+      "lat": 25.76168,
+      "long": -80.19179,
+      "menus": [
+        {
+          "id": 107,
+          "menuName": "Classic Pizzas",
+          "menuStatus": true,
+          "menuItems": [
+            {
+              "id": 1050,
+              "mainItemName": "Margherita Pizza",
+              "childItems": [
+                {
+                  "id": 2051,
+                  "name": "Cheese",
+                  "extraIngredients": [
+                    "Mozzarella",
+                    "Parmesan"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2052,
+                  "name": "Toppings",
+                  "extraIngredients": [
+                    "Basil",
+                    "Olives"
+                  ],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                }
+              ]
+            },
+            {
+              "id": 1051,
+              "mainItemName": "Pepperoni Pizza",
+              "childItems": [
+                {
+                  "id": 2053,
+                  "name": "Cheese",
+                  "extraIngredients": [
+                    "Mozzarella",
+                    "Cheddar"
+                  ],
+                  "selectionType": "single",
+                  "defaultSelection": true
+                },
+                {
+                  "id": 2054,
+                  "name": "Toppings",
+                  "extraIngredients": [
+                    "Pepperoni",
+                    "Bacon"
+                  ],
+                  "selectionType": "multi",
+                  "defaultSelection": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
